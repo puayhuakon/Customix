@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+input.inputScore {
+    font-size: 2rem;
+}
+
+button {
+    background: linear-gradient(21deg, #10abff, #1beabd);
+    color: aliceblue;
+    border: 1px solid;
+    width: 7rem;
+    height: 2rem;
+   
+}
+
+button.calculate-score {
+    font-size: 20px;
+    justify-content: center;
+    align-content: center;
+}
