@@ -5,7 +5,7 @@ btnScore.addEventListener('click', function() {
     const inputScore = document.getElementById('score').value;
     const targetArray = inputScore.split(',');
 
-    total = 0;
+    let total = 0;
     const count = targetArray.length;
 
     for (let i = 0; i < count; i++) {
